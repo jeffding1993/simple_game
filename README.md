@@ -8,7 +8,7 @@
 - 通过@property的getter、setter方式，对外提供防具的两个访问接口armor_name与armor_count
 	- armor_name可以取值、赋值、删除值：通过一个
 	- eg: 普通僵尸对象.armor_name = '铁桶'，不仅改变了防具名
-	-     普通僵尸对象的名字name也会变成 铁桶僵尸
+	- 普通僵尸对象的名字name也会变成 铁桶僵尸
 - armor_count只可以取值
 			
 2.定义一个角色User类，该类有名字name属性、以及打僵尸的beat方法
