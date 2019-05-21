@@ -17,13 +17,7 @@ class Zombie:
 
     @armor_name.setter
     def armor_name(self, new_name):
-        armor_list = ["无", 0, "路障", 5, "铁桶", 15]
-        if new_name == "普通":
-            self.__armor = armor_list[0]
-        if new_name == "路障":
-            self.__armor = armor_list[2]
-        if new_name == "铁桶":
-            self.__armor = armor_list[4]
+        self.__armor = new_name
         self.name = new_name + "僵尸"
 
     @property
